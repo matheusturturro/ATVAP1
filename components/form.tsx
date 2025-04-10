@@ -15,13 +15,9 @@ export default function Form({ nome, telefone, setNome, setTelefone, onSubmit }:
   const [telefoneError, setTelefoneError] = useState(false);
 
   const handleTelefoneChange = (text: string) => {
-    // Remove qualquer caractere que não seja número
     const apenasNumeros = text.replace(/[^0-9]/g, '');
     
-    // Atualiza o estado de erro
     setTelefoneError(text !== apenasNumeros);
-    
-    // Atualiza o valor do telefone apenas com números
     setTelefone(apenasNumeros);
   };
 
