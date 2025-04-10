@@ -4,8 +4,8 @@ const { width, height } = Dimensions.get('window');
 
 export const styles = StyleSheet.create({
     container: {
-        width: '90%', // Ocupará 90% da largura da tela
-        alignSelf: 'center', // Centraliza o container
+        width: '90%', 
+        alignSelf: 'center',
         padding: 20,
         marginTop: 50,
     },
@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
         height: 30,
         borderWidth: 1,
         borderColor: '#000',
-        marginLeft: 10, // Espaço entre o label e o input
+        marginLeft: 10, 
     },
     inputError: {
         borderColor: 'red',
@@ -28,10 +28,10 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         width: '100%',
-        marginVertical: 5, // Espaçamento uniforme acima e abaixo
+        marginVertical: 5,
     },
     label: {
-        width: 70,// Largura fixa para os labels
+        width: 70,
         fontSize: 16,
         fontWeight: 500,
     },
@@ -41,7 +41,7 @@ export const styles = StyleSheet.create({
     errorText: {
         color: 'red',
         fontSize: 12,
-        marginLeft: 80, // Alinha com o início do input
+        marginLeft: 80, 
         marginTop: -5,
     },
     listaHeader: {
@@ -59,7 +59,7 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     listaContainer: {
-        maxHeight: 200, // Altura máxima para a lista
+        maxHeight: 200, 
         borderWidth: 1,
         borderColor: '#ccc',
         marginTop: 5,
